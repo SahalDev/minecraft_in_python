@@ -11,7 +11,7 @@ arm_texture   = load_texture('assets/arm_texture.png')
 punch_sound   = Audio('assets/punch_sound',loop = False, autoplay = False)
 block_pick = 1
 
-window.fps_counter.enabled = False
+window.fps_counter.enabled = True
 window.exit_button.visible = False
 
 def update():
